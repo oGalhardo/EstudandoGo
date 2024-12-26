@@ -1,11 +1,11 @@
-package main
+// package main
 
-import "fmt"
+// import "fmt"
 
-func main() {
-	fmt.Println(soma(42, 13))
-}
+// func main() {
+// 	fmt.Println(soma(42, 13))
+// }
 
-func soma(x int, y int) int {
-	return x + y
-}
+// func soma(x int, y int) int {
+// 	return x + y
+// }
