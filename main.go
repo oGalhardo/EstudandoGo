@@ -2,9 +2,13 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
+type ol int
+
+var b ol
+
 func main() {
-	x := 19
-	fmt.Printf("x: %v, %T\n", x, x)
+	fmt.Println("Type of variable5:", reflect.TypeOf(b))
 }
