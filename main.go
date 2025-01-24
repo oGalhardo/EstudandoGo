@@ -30,16 +30,28 @@ import "fmt"
 // 	fmt.Println(s)
 // }
 
-type top int
+// type top int
 
-var x top
+// var x top
 
-func ex4() {
-	fmt.Printf("valor de x=%v e seu tipo %T", x, x)
-	x = 42
-	fmt.Println(x)
-}
+// func ex4() {
+// 	fmt.Printf("valor de x=%v e seu tipo %T", x, x)
+// 	x = 42
+// 	fmt.Println(x)
+// }
+
+// var y int
+
+// func ex5() {
+// 	fmt.Printf("Valor de x: %v\ntipo de x:%T\n", x, x)
+// 	x = 42
+// 	y = int(x)
+// 	fmt.Printf("Valor de y: %v\ntipo de x:%T", y, y)
+
+// }
+
+func ex6()
 
 func main() {
-	ex4()
+	ex5()
 }
