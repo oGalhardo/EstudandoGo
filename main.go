@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 // type ol int
 
 // var b ol
@@ -50,8 +48,26 @@ import "fmt"
 
 // }
 
-func ex6()
+// func aulaTypesNum() {
+// 	a := "e"
+// 	b := "É"
+// 	fmt.Printf("%v,%v\n", a, b)
+// 	d := []byte(a)
+// 	e := []byte(b)
+// 	fmt.Printf("%v, %v\n", d, e)
+// 	fmt.Println(runtime.GOOS)
+// 	fmt.Println(runtime.GOARCH)
 
-func main() {
-	ex5()
-}
+// }
+
+// func OVERFLOW() {
+// 	var i uint16
+// 	i = 65535
+// 	fmt.Println(i)
+// 	i++
+// 	fmt.Println(i)
+// }
+
+// func main() {
+// 	OVERFLOW()
+// }
