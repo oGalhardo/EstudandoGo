@@ -38,5 +38,50 @@ package main
 // 	}
 // }
 
-func main() {
-}
+//WHILE\
+
+// func while() {
+// 	x := 2
+// 	for x < 10 {
+// 		x++
+// 	}
+// 	x = 0
+// 	for {
+// 		if x < 10 {
+// 			x++
+// 			fmt.Println((x))
+
+// 		} else {
+// 			fmt.Println("Parou")
+// 			break
+// 		}
+// 	}
+// }
+
+// func breakOperation() {
+// 	// for x := 0; x <= 20; x++ {
+// 	// 	if x%2 == 0 {
+// 	// 		//Quebra a condicao atual e passa pra a próxima
+// 	// 		//O contrario do breake que quebra todo o loop
+// 	// 		continue
+// 	// 	}
+// 	// 	fmt.Println(x)
+// 	// }
+// 	for i := 9; i <= 22; i++ {
+// 		if i == 21 {
+// 			fmt.Println("Pare", i)
+// 			break
+// 		}
+// 		continue
+// 	}
+// }
+
+// func desafioSurpris() {
+// 	for i := 33; i < 123; i++ {
+// 		fmt.Printf("i = %d\t %#x\t %#U\n", i, i, i)
+// 	}
+// }
+
+// func main() {
+// 	desafioSurpris()
+// }
