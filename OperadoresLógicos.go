@@ -6,10 +6,10 @@ package main
 // 	}
 // }
 
-func ex2(){
-	ALFABETO:=["a","b"]
-}
+// func ex2(){
+// 	ALFABETO:=["a","b"]
+// }
 
-func main() {
-	ex1()
-}
+// func main() {
+// 	ex1()
+// }
