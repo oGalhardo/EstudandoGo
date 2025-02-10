@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 // func ex1() {
 // 	amigos := map[string]int{
@@ -27,9 +27,9 @@ import "fmt"
 // fmt.Println(sera, ok)
 // }
 
-type x struct {
-}
+// type x struct {
+// }
 
-func main() {
-	ex1()
-}
+// func main() {
+// 	ex1()
+// }
