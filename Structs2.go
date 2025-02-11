@@ -1,30 +1,60 @@
 package main
 
-// type pessoa struct {
-// 	nome      string
-// 	sobrenome string
-// 	sabores   []string
+type veiculo struct {
+	portas int64
+	cor    string
+}
+
+type caminhoete struct {
+	veiculo
+	tracaoNasQuatro bool
+}
+
+type sedan struct {
+	veiculo
+	modeloLuxo bool
+}
+
+// func ex1() {
+// 	RAM := caminhoete{
+// 		veiculo: veiculo{
+// 			portas: 4,
+// 			cor:    "vermelha",
+// 		},
+// 		tracaoNasQuatro: true,
+// 	}
+// 	UNO := sedan{
+// 		veiculo: veiculo{
+// 			portas: 2,
+// 			cor:    "azul",
+// 		},
+// 		modeloLuxo: true,
+// 	}
+// 	fmt.Println(RAM, UNO)
+// 	fmt.Printf("VALORES RAM")
+// 	fmt.Printf("VALORES UNO")
+
 // }
 
 // func ex2() {
-// 	meuMapa := make(map[string]pessoa)
-// 	pessoa1 := pessoa{
-// 		nome:      "Ada",
-// 		sobrenome: "Belto",
-// 		sabores:   []string{"Cho", "late"},
+// 	pessoa := struct {
+// 		nome  string
+// 		idade int64
+// 		sexo  map[string]int
+// 		filho []string
+// 	}{
+// 		nome:  "Junior",
+// 		idade: 65,
+// 		sexo:  map[string]int{"M": 1},
+// 		filho: []string{"JUNIOR"},
 // 	}
-// 	pessoa2 := pessoa{
-// 		nome:      "Ma",
-// 		sobrenome: "Ria",
-// 		sabores:   []string{"Calda", "Nata"},
-// 	}
-// 	meuMapa[pessoa1.sobrenome] = pessoa1
-// 	meuMapa[pessoa2.sobrenome] = pessoa2
-// 	for _, v := range meuMapa {
-// 		for _,v := range v.sabores{
-// 			)
-// 		}
-// 	}
+// 	pessoavelha := struct {
+// 		velha bool
+// 		netos []string
+// 	}{}
+// 	pessoavelha.velha = true
+// 	fmt.Println(pessoa)
+// 	fmt.Println(pessoa, pessoavelha)
 // }
 
 func main() {
