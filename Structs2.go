@@ -1,19 +1,19 @@
 package main
 
-type veiculo struct {
-	portas int64
-	cor    string
-}
+// type veiculo struct {
+// 	portas int64
+// 	cor    string
+// }
 
-type caminhoete struct {
-	veiculo
-	tracaoNasQuatro bool
-}
+// type caminhoete struct {
+// 	veiculo
+// 	tracaoNasQuatro bool
+// }
 
-type sedan struct {
-	veiculo
-	modeloLuxo bool
-}
+// type sedan struct {
+// 	veiculo
+// 	modeloLuxo bool
+// }
 
 // func ex1() {
 // 	RAM := caminhoete{
@@ -57,6 +57,6 @@ type sedan struct {
 // 	fmt.Println(pessoa, pessoavelha)
 // }
 
-func main() {
-	ex2()
-}
+// func main() {
+// 	ex2()
+// }
