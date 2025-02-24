@@ -18,6 +18,7 @@ func (r *RestErr) Error() string {
 	return r.Message
 }
 
+// Recebe parametros e retorna o objeto montado
 func NewRestErr(message, err string, code int, causes []Causes) *RestErr {
 	return &RestErr{
 		Message: message,
